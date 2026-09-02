@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Viewport Animation Picker — Tao Ye</title>
+<link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back-link" href="../">&larr; Back to portfolio</a>
+
+  <h1>Viewport Animation Picker</h1>
+  <p>An animation picker system built from Maya locator shapes, with a Qt GUI to manage how
+  the viewport picker is placed in the camera view.</p>
+  <p class="muted">[C++, Python]</p>
+
+  <h2>Key features</h2>
+  <ul>
+    <li>Pickers can be created easily from existing controllers — users can cast controllers to camera space and create pickers</li>
+    <li>A UI supporting add/remove of individual pickers manually</li>
+    <li>Independent visibility control for picker shapes in the viewport</li>
+    <li>Supports all Maya viewport manipulations, including display/selection mask, display layer, and isolate selection</li>
+    <li>Customizable color, selection color, and transparency for each picker item</li>
+    <li>Pickers can be grouped into containers; each container allows an image background with an alpha channel</li>
+    <li>Lightweight I/O as a disk file</li>
+    <li>Pickers are saved with the Maya rig scene — no additional data files need to be maintained</li>
+    <li>GUI picker panel supports selection undo, with Qt item selection synced to the Maya scene selection</li>
+  </ul>
+
+  <h2>Media</h2>
+
+  <p class="caption">Tool demo</p>
+  <video src="media/ViewportPicker.mp4" controls preload="metadata"></video>
+
+</div>
+</body>
+</html>

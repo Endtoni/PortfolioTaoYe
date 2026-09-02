@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cranium — Tao Ye</title>
+<link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back-link" href="../">&larr; Back to portfolio</a>
+
+  <img class="hero" src="media/customization_ui.png" alt="EA Sports FC 25 face customization UI built on Cranium" />
+
+  <h1>Cranium</h1>
+  <p>In-game character customization technology shipped in EA Sports FC 25.</p>
+  <p><a href="https://www.ea.com/amp/news/cranium-technology-ea-sports-fc-25">EA announcement: Cranium Technology — EA Sports FC 25</a></p>
+
+  <h2>Runtime blendshape asset selection</h2>
+  <p>Built a runtime system that loads the optimal runtime face rig asset for a user's sculpted
+  face. The bucket test video below uses an internal playground tool that randomizes morph
+  coefficients to generate random faces, verifying that the loaded blendshape asset responds
+  correctly — including that a smiling pose keeps the lips lined up with no penetration or
+  gaps.</p>
+
+  <p class="caption">Bucket test</p>
+  <video src="media/bucket_test.mp4" controls preload="metadata"></video>
+
+  <h2>Runtime animation graph</h2>
+  <p>Set up the runtime animation graph, adding idle animation on top of full-body animation,
+  and a "show teeth" expression that plays when the user customizes teeth.</p>
+
+  <p class="caption">Early test — December 2023</p>
+  <video src="media/early_test_2023_Dec.mp4" controls preload="metadata"></video>
+
+  <p class="caption">Early test — October 2023</p>
+  <video src="media/early_test_2023_Oct.mp4" controls preload="metadata"></video>
+
+</div>
+</body>
+</html>

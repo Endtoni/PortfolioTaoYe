@@ -77,11 +77,10 @@ video {
 
 .header-image {
   width: 100%;
-  max-width: 500px;
   border-radius: 8px;
   border: 1px solid var(--border);
   display: block;
-  margin: 0 auto 32px;
+  margin: 0 0 32px;
 }
 
 .hero {
